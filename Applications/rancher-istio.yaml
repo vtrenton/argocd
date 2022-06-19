@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/rancher/charts.git
-    targetRevision: dev-v2.6
-    path: charts/rancher-istio/100.3.0+up1.13.3
+    repoURL: https://charts.rancher.io/
+    chart: rancher-istio
+    targetRevision: 100.3.0+up1.13.3
   destination:
     server: https://kubernetes.default.svc
     namespace: istio-system
