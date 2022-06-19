@@ -9,6 +9,8 @@ spec:
     repoURL: https://charts.rancher.io/
     chart: rancher-istio
     targetRevision: 100.3.0+up1.13.3
+    helm:
+      releaseName: rancher-charts
   destination:
     server: https://kubernetes.default.svc
     namespace: istio-system
